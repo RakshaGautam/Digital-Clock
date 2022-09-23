@@ -1,3 +1,6 @@
+html{
+    font-size: 65.5%;
+}
 body{
     margin: 0;
     font-family: sans-serif;
@@ -11,8 +14,8 @@ body{
 }
 h1{
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 50px;
+    letter-spacing: .4rem;
+    font-size: 5rem;
     text-align: center;
     color: rgb(151, 116, 20);
 }
@@ -23,30 +26,42 @@ h1{
     margin: 5px;
 }
 .clock span{
-    width: 100px;
-    height: 80px;
+    width: 10rem;
+    height: 8rem;
     background-color: rgb(184, 105, 105);
     opacity: 0.8;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 .clock .text{
-    height: 30px;
-    font-size: 10px;
+    height: 3rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     background: brown;
     opacity: 0.8;
 }
-.clock #ampm{ 
-    margin-top: 80px;
+.clock #ampm{
+    margin-top: 8rem;
     position: absolute;
-    width: 60px;
-    height: 30px;
-    font-size: 20px;
+    width: 6rem;
+    height: 3rem;
+    font-size: 2rem;
     background: brown;
 }
+
+@media(max-width:700px){
+    html{
+        font-size: 55%;
+    }
+} 
+@media(max-width:465px){
+    html{
+        font-size: 40%;
+    }
+} 
+    
