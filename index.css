@@ -42,8 +42,8 @@ h1{
     background: brown;
     opacity: 0.8;
 }
-.clock #ampm{
-    /* bottom: 0; */
+.clock #ampm{ 
+    margin-top: 80px;
     position: absolute;
     width: 60px;
     height: 30px;
